@@ -26,7 +26,7 @@ h1 {
     height: 300px;
     border: 10px solid;
     border-radius: 163px;
-    margin-left: 35% ;
+    margin-left: 40% ;
 }
 #wel {
     text-align: center; /* Centers the text horizontally */
@@ -157,9 +157,9 @@ hr {
     background-color: rgb(0, 0, 0);
     border: 5px solid rgb(0, 0, 0);
     border-radius: 11px;
-    margin-left: 399px;
+    margin-left: 41%;
 }
 #send{
-   margin-left: 399px;
+   margin-left: 41%;
    
 }
