@@ -1,0 +1,165 @@
+
+nav {
+        display: flex;
+        JUSTIFY-CONTENT:  center; /* Centers the items horizontally */  
+       gap: 70px; /* Adds 40px of space between each item */
+      margin-top: 40px; /* Adds 40px of space above the nav */
+
+    }
+.top {
+    border: 10px solid #000000; /* Adds a black border around the link */
+    border-radius: 40px; /* Adds rounded corners to the link */
+    background-color: #000000; /* Sets the background color of the link to black */
+    text-decoration: none; /* Removes the underline from the link */
+    color: white; /* Sets the text color of the link to white */
+      transition: color 0.3s ease, background-color 0.3s ease; /* Adds a transition effect for color and background-color changes */
+}
+.top:hover {
+    color: black;
+}
+h1 {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 40px; /* Adds 40px of space above the heading */
+}
+#cr7 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-radius: 163px;
+    margin-left: 35% ;
+}
+#wel {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adds 20px of space above the paragraph */
+    font-size: 25px; /* Sets the font size of the paragraph */
+    line-height: 1.6; /* Sets the line height for better readability */
+    max-width: 800px; /* Limits the maximum width of the paragraph */
+    margin-left: auto; /* Centers the paragraph horizontally */
+    margin-right: auto; /* Centers the paragraph horizontally */
+}   
+h2 {
+    border: 10px solid #000000; /* Adds a black border around the link */
+    border-radius: 40px; /* Adds rounded corners to the link */
+    background-color: #000000; /* Sets the background color of the link to black */
+    text-decoration: none; /* Removes the underline from the link */
+    color: white; /* Sets the text color of the link to white */
+}
+ #div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#CRI {
+    width: 300px;
+    height: 400px;
+    border: 10px solid;
+    margin-right: 120px;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#ron {
+  text-align: justify;
+  height: 400px;
+  padding-right: 250px;
+  font-style:unset;
+   line-height: 1.8;
+   font-size: 16px;
+   margin-left: 30px;
+}
+#ron::first-letter {
+    font-size: 3em;
+    font-weight:bolder;
+}
+ 
+table, th, td{
+    border: 5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+th{
+    width: 300px;
+}
+
+
+th{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+#contact-text {
+    text-align: center; /* Centers the text horizontally */
+    font-size: 20px; /* Sets the font size of the paragraph */
+    line-height: 1.6; /* Sets the line height for better readability */
+    max-width: 800px; /* Limits the maximum width of the paragraph */
+    margin-left: auto; /* Centers the paragraph horizontally */
+    margin-right: auto; /* Centers the paragraph horizontally */
+}
+
+
+button{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    width: 260px;
+    height: 42px;
+    background-color: rgb(236, 229, 229);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 11px;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(230, 6, 6);
+    border-color: black;
+    border-radius: 0px;
+}
+.bom{
+    font-size: 20px;
+    font-weight: bold;
+}
+#skills{
+    list-style-type:lower-roman; /* Removes the default bullet points */
+   font-size: 20px;
+   font-weight: bold;
+  
+}
+#inf{
+    list-style-type:circle; /* Removes the default bullet points */
+     font-size: 20px;
+  
+}
+
+
+footer{
+    font-size: 20px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 26, 116);
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+hr {
+    border: 5px solid rgb(0, 0, 0);
+}
+#follow{
+      font-size: 23px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 42px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 11px;
+    margin-left: 399px;
+}
+#send{
+   margin-left: 399px;
+   
+}
